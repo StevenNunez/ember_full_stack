@@ -1,0 +1,8 @@
+{{model.name}}
+<h1>Registered Students</h1>
+<ul>
+  {{#each model.students as |student|}}
+    <li>{{student.name}}</li>
+  {{/each}}
+</ul>
+{{outlet}}
